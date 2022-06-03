@@ -1,0 +1,14 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #d3dde9, #F5F7FB);
+    column-gap: 1rem;
+    height: 3rem;
+}
+.navItem {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+}
