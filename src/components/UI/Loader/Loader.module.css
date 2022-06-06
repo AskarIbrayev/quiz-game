@@ -1,0 +1,14 @@
+.loader {
+    height: .2rem;
+    background: #8790c2;
+    animation: loader 1s linear;
+
+}
+@keyframes loader{
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }  
+}
