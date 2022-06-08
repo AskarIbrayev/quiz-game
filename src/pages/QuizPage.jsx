@@ -3,6 +3,7 @@ import Confetti from "react-confetti"
 import Question from "../components/Question"
 import axios from "axios"
 import Loader from "../components/UI/Loader/Loader"
+import Time from "../components/Time"
 
 export default function QuizPage({ quizQuantity, category, difficulty}) {
     const [allQuestions,setAllQuestions] = useState([])
@@ -63,6 +64,7 @@ export default function QuizPage({ quizQuantity, category, difficulty}) {
             <div style={{textAlign: "center", color: "#293264"}}>
                 <h1>Quiz</h1>
                 <h3>Difficulty level: {difficulty}</h3>
+                <Time newQuiz={newQuiz} isFinished={isFinished} />
             </div>
             <div>
                 <ol>
