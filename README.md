@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Quiz game app was developed using Create React App
+
+You can try the quiz folloing the link https://askaribrayev.github.io/quiz-game/ (published using github pages)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
