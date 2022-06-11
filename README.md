@@ -1,8 +1,8 @@
 # Quiz game app was developed using Create React App
 
-You can try the quiz folloing the link https://askaribrayev.github.io/quiz-game/ (published using github pages)
+You can try the quiz following the link https://askaribrayev.github.io/quiz-game/ (published using github pages)
+Questions are obtianed Open Trivia API from https://opentdb.com/  opensourse database
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
