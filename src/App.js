@@ -32,8 +32,8 @@ export default function App(){
                 />
                     
                 <Route 
-                    path="/quiz-game/quiz" 
-                    element={<QuizPage key={Date.now()} 
+                    path="/quiz-game/quiz"
+                    element={<QuizPage 
                                 quizQuantity={quizQuantity} 
                                 difficulty={difficulty} 
                                 category={category}

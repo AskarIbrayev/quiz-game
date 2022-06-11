@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-import MySelect from '../components/UI/MySelect';
+import MySelect from '../components/UI/Select/MySelect';
 
  export default function QuizPage({ quizQuantity, setQuizQuantity, difficulty, setDifficulty, category, setCategory}) {
 
     return (
         <div className="start-page">
-            <div>
+            <div className="container">
                 <h1>Quiz Game</h1>
                 <p>Answer random questions and test your knowledge</p>
                 <MySelect 

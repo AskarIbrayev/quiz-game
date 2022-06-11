@@ -11,6 +11,7 @@ export default function Time({newQuiz, isFinished}) {
           setIntervalId(newIntervalId)
           return () => clearInterval(intervalId)
     }, [newQuiz]) 
+
     useEffect(() =>{
         clearInterval(intervalId)
     },[isFinished])
@@ -18,6 +19,7 @@ export default function Time({newQuiz, isFinished}) {
     useEffect(() =>{
         setSeconds(0)
     },[newQuiz])
+
     const sec = seconds%60 > 9 ? seconds%60 : '0' + seconds%60
     const min = (Math.floor(seconds/60))%60 > 9 ? (Math.floor(seconds/60))%60 : '0' + (Math.floor(seconds/60))%60 
     const hr = Math.floor(seconds/3600) > 9 ? Math.floor(seconds/3600) : '0' + Math.floor(seconds/3600)
@@ -25,8 +27,8 @@ export default function Time({newQuiz, isFinished}) {
   
     
     return (
-      <div>
-        <h3>Duration: {showTime}</h3> 
-      </div>
+      <span>
+        {showTime}
+      </span>
     );
 }

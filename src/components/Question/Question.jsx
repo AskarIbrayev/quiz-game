@@ -1,4 +1,6 @@
 import React from 'react'
+import './questionStyles.css'
+
 
 export default function Question({question, choose,isFinished}){
 
@@ -35,7 +37,7 @@ export default function Question({question, choose,isFinished}){
     }
     
     return (
-        <div className="quiz">
+        <div className="question-item">
             <h3 className="question">{question.question}</h3>
             {randomIndex.map(index => answersArray[index])}               
         </div>
